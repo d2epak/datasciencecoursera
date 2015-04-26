@@ -1,7 +1,7 @@
 library(data.table)
 
 # set working directory for data
-setwd("./cleaningdata")
+getwd()
 
 # read the test dataset
 x_test_data<-read.table("./UCI HAR Dataset/test/x_test.txt")

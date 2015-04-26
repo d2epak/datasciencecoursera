@@ -119,7 +119,5 @@ submit_data <- aggregate(. ~Subject+Activity, merged_data, function(x) c(mean = 
 ### IV. Sample of expected data
 
 * **Dimensions of the final data, 180 Rows and 88 Columns** = 
-``` {r echo=FALSE}
-dim(submit_data)
-```
+
 * Each of the variables have been described in detail in the accompanying codebook 'codebook.txt'
